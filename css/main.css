@@ -1,0 +1,102 @@
+/* this removes the dot's on the comment*/
+ul {
+  list-style: none;
+}
+
+/* this makes the background grey*/
+body {
+  font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+  line-height: 1.5;
+  color: white;
+  background: #444;
+  padding: 20px;
+  list-style: none;
+}
+
+/* this styles the button*/
+button {
+    border: 1px solid transparent;    
+    padding: .85em 3em;
+    margin: 0 0 1rem;
+    font-size: .9rem;
+    background-color: #2199e8;
+    color: #fff;
+    position: relative;
+    left:33%;
+  }
+/* this styles the h1 comment*/
+h1.h1Comment {
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* this positions the white comment part*/
+input#commentInput {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.4375rem;
+    padding: .5rem;
+    border: 1px solid #cacaca;
+    margin: 0 0 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #0a0a0a;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(10,10,10,.1);
+    border-radius: 0;
+    transition: box-shadow .5s,border-color .25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  /* this moves the h1 to the right*/
+h1.h1Comment {
+    position: relative;
+    left: 10%;
+}
+/* this moves the comments to the center*/
+li {
+  position: relative;
+  left: 30%;
+}
+
+/* this moves the comments to the center*/
+li{
+  list-style: none;
+  margin: 0 0 50px 0;
+  > li {
+    margin: 0 0 20px 0;
+    background: #333;
+    padding: 20px;
+  }
+}
+/* this moves the comments to the center*/
+li{
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+/* this puts a black border around the Leave a Comment Section*/
+.center {
+  margin-top: 20px;
+  background: #222;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+/* this styles the whole center div*/
+.center {
+  width: 50%;  
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;    
+  padding: 20px;
+  position: relative;
+  left: 18%;
+}
+
+    
