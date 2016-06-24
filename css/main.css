@@ -26,7 +26,7 @@ button {
   }
 /* this styles the h1 comment*/
 h1.h1Comment {
-  margin-right: 5px;
+  margin-right: 1px;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -54,7 +54,7 @@ input#commentInput {
   /* this moves the h1 to the right*/
 h1.h1Comment {
     position: relative;
-    left: 10%;
+    left: 17%;
 }
 /* this moves the comments to the center*/
 li {
@@ -99,4 +99,14 @@ li{
   left: 18%;
 }
 
-    
+/* this puts the comments in a white border box*/
+li {
+background: white;
+  color: #222;
+  padding: 20px;
+}
+/* this moves the comments to center*/
+ul#commentList {
+    position: relative;
+    right: 31%;
+}
